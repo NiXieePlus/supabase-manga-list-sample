@@ -205,6 +205,14 @@
     "@supabase/realtime-js" "^1.0.9"
     "@supabase/storage-js" "^1.2.2"
 
+"@supabase/ui@0.27.3":
+  version "0.27.3"
+  resolved "https://registry.yarnpkg.com/@supabase/ui/-/ui-0.27.3.tgz#4d64e22c72793211cb92cc771e16f4cb87b4b48f"
+  integrity sha512-SO7TO/TIK6qziHUTmd2YpTmUtpBfYrN4Gx9tL7pYDHhfmmVApmYXmxEVexHAvHkSsxaK8yPER9KbMpwXx3ZwPQ==
+  dependencies:
+    lodash "^4.17.20"
+    prop-types "^15.7.2"
+
 "@types/json5@^0.0.29":
   version "0.0.29"
   resolved "https://registry.yarnpkg.com/@types/json5/-/json5-0.0.29.tgz#ee28707ae94e11d2b827bcbe5270bcea7f3e71ee"
@@ -2131,7 +2139,7 @@ lodash.truncate@^4.4.2:
   resolved "https://registry.yarnpkg.com/lodash.truncate/-/lodash.truncate-4.4.2.tgz#5a350da0b1113b837ecfffd5812cbe58d6eae193"
   integrity sha1-WjUNoLERO4N+z//VgSy+WNbq4ZM=
 
-lodash@^4.17.13, lodash@^4.17.21:
+lodash@^4.17.13, lodash@^4.17.20, lodash@^4.17.21:
   version "4.17.21"
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.21.tgz#679591c564c3bffaae8454cf0b3df370c3d6911c"
   integrity sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg==
