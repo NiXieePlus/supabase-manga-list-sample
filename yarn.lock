@@ -223,6 +223,11 @@
   resolved "https://registry.yarnpkg.com/@types/json5/-/json5-0.0.29.tgz#ee28707ae94e11d2b827bcbe5270bcea7f3e71ee"
   integrity sha1-7ihweulOEdK4J7y+UnC86n8+ce4=
 
+"@types/moji@^0.5.0":
+  version "0.5.0"
+  resolved "https://registry.yarnpkg.com/@types/moji/-/moji-0.5.0.tgz#4b68f789702baeb9aa5482ea68191ca4080c8b2b"
+  integrity sha512-oZhMgrG0iv5u1yICABzV4NrlpGOE7hNapc3atIMiQ1ebWOTkay/x1eMYbQPXjCxxk14Td3cqy7S+kvmGdE7NGA==
+
 "@types/node@*":
   version "15.12.5"
   resolved "https://registry.yarnpkg.com/@types/node/-/node-15.12.5.tgz#9a78318a45d75c9523d2396131bd3cca54b2d185"
@@ -2232,6 +2237,13 @@ modern-normalize@^1.1.0:
   resolved "https://registry.yarnpkg.com/modern-normalize/-/modern-normalize-1.1.0.tgz#da8e80140d9221426bd4f725c6e11283d34f90b7"
   integrity sha512-2lMlY1Yc1+CUy0gw4H95uNN7vjbpoED7NNRSBHE25nWfLBdmMzFCsPshlzbxHz+gYMcBEUN8V4pU16prcdPSgA==
 
+moji@^0.5.1:
+  version "0.5.1"
+  resolved "https://registry.yarnpkg.com/moji/-/moji-0.5.1.tgz#088eecd1c22c8f31a240adcf9c95e54f33eb54fb"
+  integrity sha1-CI7s0cIsjzGiQK3PnJXlTzPrVPs=
+  dependencies:
+    object-assign "^3.0.0"
+
 ms@2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/ms/-/ms-2.0.0.tgz#5608aeadfc00be6c2901df5f9861788de0d597c8"
@@ -2402,6 +2414,11 @@ normalize-range@^0.1.2:
   version "0.1.2"
   resolved "https://registry.yarnpkg.com/normalize-range/-/normalize-range-0.1.2.tgz#2d10c06bdfd312ea9777695a4d28439456b75942"
   integrity sha1-LRDAa9/TEuqXd2laTShDlFa3WUI=
+
+object-assign@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/object-assign/-/object-assign-3.0.0.tgz#9bedd5ca0897949bca47e7ff408062d549f587f2"
+  integrity sha1-m+3VygiXlJvKR+f/QIBi1Un1h/I=
 
 object-assign@^4.1.1:
   version "4.1.1"
