@@ -1,34 +1,61 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Next.jsではじめるSupabase
 
-## Getting Started
+[技術書典11](https://techbookfest.org/)で頒布した書籍「[Next.jsではじめるSupabase](https://techbookfest.org/product/5379695388393472?productVariantID=4808144628744192)」のサンプルコードリポジトリです。
+本書では、サンプルWebアプリを実装しながら、Supabaseでできることを一つひとつ学べるようになっています。
 
-First, run the development server:
+<div>
+  <a href="https://techbookfest.org/product/5379695388393472?productVariantID=4808144628744192">
+    <img src="book/img/supabase-book-cover.png" alt="表紙" width=300>
+  </a>
+</div>
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+## 作成するサンプルアプリ
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+実際に本書で作成するサンプルアプリは以下のURLで公開しています。
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+[https://techbookfest11.nixiee.plus](https://techbookfest11.nixiee.plus)
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.tsx`.
+### アプリの概要
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+所有している漫画を一覧できるWebアプリです。
+[楽天ブックス書籍検索API](https://webservice.rakuten.co.jp/api/booksbooksearch/)や[openBD](https://openbd.jp/)を使用し、簡単に書籍を登録できます。
 
-## Learn More
+### サンプルアプリの使い方
 
-To learn more about Next.js, take a look at the following resources:
+- アカウントを作成し、ログイン
+  - メールアドレス、マジックリンク、GitHubアカウントによるログインをサポート
+- 「ADD NEw」をクリックし、追加した漫画のタイトル・著者を入力して「Add」
+- 登録した漫画をクリックした後、「ADD NEW」をクリックし、各巻の情報を登録
+  - "Volume"に巻数、"ISBN"にISBN(国際的な書籍の識別子)を入力
+  - ISBNは漫画タイトルにより検索可能
+  - "Possession"にチェックを入れると所持している状態になり、サムネイルがカラー表示されます
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 使用している主な技術
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+- [Next.js](https://nextjs.org/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [tailwindcss](https://tailwindcss.com/)
+- [Supabase](https://supabase.io/)
+- [Supabase UI](https://ui.supabase.io/)
+- [Headless UI](https://headlessui.dev/)
 
-## Deploy on Vercel
+## タグについて
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+本書では、開発段階のサンプルコードを実行できるように、書籍の節ごとにタグを付与しています。
+[Releasesページ](https://github.com/NiXieePlus/supabase-manga-list-sample/releases)からご確認下さい。
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## 本書に関するご意見・ご感想・ご指摘
+
+以下のいずれかの方法でご連絡いただけると幸いです。
+
+- Twitter
+  - 著者へメンション([りーべ](https://twitter.com/MagicalLiebe)・[ぽぬう](https://twitter.com/ponu77))
+  - ハッシュタグ [#supabase_nixiee](https://twitter.com/intent/tweet?hashtags=supabase_nixiee)を付けてツイート
+- GitHub
+  - Issuesに投稿
+
+## 正誤表
+
+本書に関する修正についてもこちらのリポジトリにて掲載いたします。
+
+現在、修正内容はありません。
