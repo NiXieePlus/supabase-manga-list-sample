@@ -92,7 +92,7 @@ const Rakuten = async (req: NextApiRequest, res: NextApiResponse) => {
     }
 
     if (count != bookList.length) {
-      res.status(500).json({ massege: "Error: Rakuten Book API." });
+      res.status(500).json({ message: "Error: Rakuten Book API." });
     } else {
       bookList.sort(compare);
       res.status(200).json({ data: bookList, size: count });
@@ -100,7 +100,7 @@ const Rakuten = async (req: NextApiRequest, res: NextApiResponse) => {
   } else {
     res
       .status(500)
-      .json({ massege: "Error: Please set title or author to query." });
+      .json({ message: "Error: Please set title or author to query." });
   }
 };
 
