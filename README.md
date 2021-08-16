@@ -32,11 +32,11 @@
   - ISBNは漫画タイトルにより検索可能
   - "Possession"にチェックを入れると所持している状態になり、サムネイルがカラー表示されます
 
-## 使用している主な技術
+## 使用している主なパッケージ
 
 - [Next.js](https://nextjs.org/)
 - [TypeScript](https://www.typescriptlang.org/)
-- [tailwindcss](https://tailwindcss.com/)
+- [TailwindCSS](https://tailwindcss.com/)
 - [Supabase](https://supabase.io/)
 - [Supabase UI](https://ui.supabase.io/)
 - [Headless UI](https://headlessui.dev/)
