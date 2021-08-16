@@ -3,11 +3,13 @@
 [技術書典11](https://techbookfest.org/)で頒布した書籍「[Next.jsではじめるSupabase](https://techbookfest.org/product/5379695388393472?productVariantID=4808144628744192)」のサンプルコードリポジトリです。
 本書では、サンプルWebアプリを実装しながら、Supabaseでできることを一つひとつ学べるようになっています。
 
-<div>
-  <a href="https://techbookfest.org/product/5379695388393472?productVariantID=4808144628744192">
-    <img src="book/img/supabase-book-cover.png" alt="表紙" width=300>
-  </a>
-</div>
+
+<img src="book/img/supabase-book-cover.png" alt="表紙" width=300>
+
+購入はこちらから
+
+- [技術書典オンラインマーケット](https://techbookfest.org/product/5379695388393472?productVariantID=4808144628744192)
+- [BOOTH](https://booth.pm/ja/items/3184415)
 
 ## 作成するサンプルアプリ
 
