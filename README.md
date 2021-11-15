@@ -1,8 +1,8 @@
 # Next.jsではじめるSupabase
 
 [技術書典11](https://techbookfest.org/)で頒布した書籍「[Next.jsではじめるSupabase](https://techbookfest.org/product/5379695388393472?productVariantID=4808144628744192)」のサンプルコードリポジトリです。
-本書では、サンプルWebアプリを実装しながら、Supabaseでできることを一つひとつ学べるようになっています。
-
+本書では、サンプルWebアプリを実装しながら、Supabaseでできることを一つひとつ学べるようになっています。  
+※技術の泉シリーズによる商業版のサンプルコードは[こちら](https://github.com/NiXieePlus/supabase-book-ird-sample)です。
 
 <img src="book/img/supabase-book-cover.png" alt="表紙" width=300>
 
@@ -26,7 +26,7 @@
 
 - アカウントを作成し、ログイン
   - メールアドレス、マジックリンク、GitHubアカウントによるログインをサポート
-- 「ADD NEw」をクリックし、追加した漫画のタイトル・著者を入力して「Add」
+- 「ADD NEW」をクリックし、追加した漫画のタイトル・著者を入力して「Add」
 - 登録した漫画をクリックした後、「ADD NEW」をクリックし、各巻の情報を登録
   - "Volume"に巻数、"ISBN"にISBN(国際的な書籍の識別子)を入力
   - ISBNは漫画タイトルにより検索可能
